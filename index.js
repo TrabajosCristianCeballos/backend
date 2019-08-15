@@ -6,7 +6,7 @@ const logger = console;
 const app = express();
 service(app);
 
-const server = app.listen(process.env.PORT || 80, () => {
+const server = app.listen(process.env.PORT || 8080, () => {
   logger.info(`${pkg.name} service online\n`);
 });
 
